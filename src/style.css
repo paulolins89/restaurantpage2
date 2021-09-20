@@ -12,18 +12,66 @@ h1{
     font-family: 'MyFont';
     color: #BA1F33; 
     font-size: 70px;
+    margin-bottom: 15px;
 }
 
 h2{
     color: #00120B;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+    padding-top: 15px;
 }
 
 #content{
     background-color: #F7C6B6;
+    margin: auto;
+    width: 70%;
+    border-top-left-radius: 3ch;
+    border-bottom-right-radius: 3ch;
+}
+
+button {
+    font-family: 'MyFont';
+    font-size: 30px;
+    color: #00120B;
+    background-color: #F7C6B6;
+    border-top-right-radius: 1ch;
+    padding: 10px;
+    width: 150px;
+    border: 0;
+}
+
+button:hover{
+    text-decoration: underline;
 }
 
 #infoPic{
     width: 50%;
-    height:auto
-    
+    height: auto;
+    border-top-left-radius: 3ch;
+    border-bottom-right-radius: 3ch;
+}
+
+figcaption{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.menuitems{
+    padding-top: 15px;
+}
+
+#mappic {
+    width: 90%;
+    height: auto;
+    border-top-left-radius: 3ch;
+    border-bottom-right-radius: 3ch;
+}
+
+.menuitem{
+    width: 40%;
+    height: auto;
+    border-top-left-radius: 3ch;
+    border-bottom-right-radius: 3ch;
 }

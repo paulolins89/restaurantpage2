@@ -9,11 +9,12 @@ export default function addContact(){
     contact.appendChild(number);
 
     const email = document.createElement('h2');
-    email.innerHTML = "sasha@sashassushi.com";
+    email.innerHTML = "Email: asha@sashassushi.com";
     contact.appendChild(email);
 
     const map = document.createElement('img');
     map.src = mapPic;
+    map.setAttribute('id','mappic');
     contact.appendChild(map);
 
     return contact;

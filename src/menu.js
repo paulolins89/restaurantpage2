@@ -12,9 +12,10 @@ export default function addMenuItems(){
     item1.setAttribute('id', 'item1');
     const pic1 = document.createElement('img');
     pic1.src = friedFishImg;
+    pic1.classList.add('menuitem');
     item1.appendChild(pic1);
     const cap1 = document.createElement('figcaption');
-    cap1.innerHTML = "Fresh Fried Fish (ask for the fish of the day!"
+    cap1.innerHTML = "Fresh Fried Fish of the Day"
     item1.appendChild(cap1);
     menuitems.appendChild(item1);
 
@@ -22,6 +23,7 @@ export default function addMenuItems(){
     item2.setAttribute('id', 'item2');
     const pic2 = document.createElement('img');
     pic2.src = sashimiImg;
+    pic2.classList.add('menuitem');
     item2.appendChild(pic2);
     const cap2 = document.createElement('figcaption');
     cap2.innerHTML = "Sashimi"
@@ -32,6 +34,7 @@ export default function addMenuItems(){
     item3.setAttribute('id', 'item3');
     const pic3 = document.createElement('img');
     pic3.src = temakiImg;
+    pic3.classList.add('menuitem');
     item3.appendChild(pic3);
     const cap3 = document.createElement('figcaption');
     cap3.innerHTML = "Temaki"
@@ -42,6 +45,7 @@ export default function addMenuItems(){
     item4.setAttribute('id', 'item4');
     const pic4 = document.createElement('img');
     pic4.src = bbqImg;
+    pic4.classList.add('menuitem');
     item4.appendChild(pic4);
     const cap4 = document.createElement('figcaption');
     cap4.innerHTML = "Japanese BBQ (with an ice-cold beer!)"
@@ -52,6 +56,7 @@ export default function addMenuItems(){
     item5.setAttribute('id', 'item5');
     const pic5 = document.createElement('img');
     pic5.src = grandmaImg;
+    pic5.classList.add('menuitem');
     item5.appendChild(pic5);
     const cap5 = document.createElement('figcaption');
     cap5.innerHTML = "Grandma's Daily Special"
