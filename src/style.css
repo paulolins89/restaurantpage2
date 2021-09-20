@@ -3,8 +3,27 @@
     src: url('./electroharmonix/electroharmonix.ttf');
 }
 
+html{
+    text-align: center;
+    background-color: #E8EBE4;
+}
+
 h1{
     font-family: 'MyFont';
-    color:red;
+    color: #BA1F33; 
     font-size: 70px;
+}
+
+h2{
+    color: #00120B;
+}
+
+#content{
+    background-color: #F7C6B6;
+}
+
+#infoPic{
+    width: 50%;
+    height:auto
+    
 }

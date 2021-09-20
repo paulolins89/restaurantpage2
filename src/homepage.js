@@ -10,6 +10,7 @@ export default function addInfo(){
 
     const pic = document.createElement('img');
     pic.src = infoPic;
+    pic.setAttribute('id', 'infoPic');
     info.appendChild(pic);
     
     return info;
