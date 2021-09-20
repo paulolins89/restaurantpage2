@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./electroharmonix/electroharmonix.ttf');
+}
+
+h1{
+    font-family: 'MyFont';
+    color:red;
+    font-size: 70px;
+}
